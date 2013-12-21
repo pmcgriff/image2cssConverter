@@ -29,7 +29,6 @@ public class ZipTest {
         ZipEntry entry = zipInputStream.getNextEntry();
 
         while(entry != null) {
-            System.out.println(entry.getName());
             entry = zipInputStream.getNextEntry();
         }
     }
